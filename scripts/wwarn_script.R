@@ -1,12 +1,9 @@
+require(pacman)
 pacman::p_load(tidyverse, rio, lubridate, here, epikit, flextable, janitor, scales) ### Load packages
 ###################################################################################################################################
 
-# Hola Juan - fantastico! Que ya eres experto en git y github. Un aplauso. Este mensaje es para hacer test de PR (pull request). Ojala que no cause un conflicto.
-# Puedo sugerir cambios, como esta línea, y tienes el poder de rechazar o no. Así functiona :-)
-# Espero que tengas un muy lindo día.
-
 ### 1. Curated and cleaning database WWARNset
-data <- read_csv("data/WWARNset.csv", locale = locale(encoding = "Latin1"))
+data <- read_csv("data/WWARNset.csv", guess_max = 100000, locale = locale(encoding = "Latin1"))
 data_chosen <- import(here("outcomes", "chosen_studies.xlsx"))
 
 data_chosen %>% summarise(n = n_distinct(sid))
