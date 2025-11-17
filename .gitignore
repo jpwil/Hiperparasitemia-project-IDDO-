@@ -3,6 +3,7 @@
 .RData
 .Rproj.user
 .Ruserdata
+.Rproj
 
 # data - DO NOT publish
 data/
@@ -16,3 +17,7 @@ base_de_datos_trabajo/
 
 # OS files
 .DS_Store
+
+# others
+hyperparasitimia_malaria_project.Rproj
+
