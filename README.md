@@ -1,7 +1,7 @@
 # Hyperparasitaemia Malaria Project
 
 <p align="center">
-  <img src="images/IDDO-logo.png" alt="IDDO logo" width="320" />
+  <img src="images/IDDO-logo.png" alt="IDDO logo" width="200" />
   &nbsp;&nbsp;
   <img src="images/TDR-logo.png" alt="TDR logo" width="200" />
 </p>
