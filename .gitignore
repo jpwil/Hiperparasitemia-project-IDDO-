@@ -6,7 +6,7 @@
 .Rproj
 
 # data - DO NOT publish
-data/
+#data/
 SDTM/
 MAPPER/
 WWARNset/
