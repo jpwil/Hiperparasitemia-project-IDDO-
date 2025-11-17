@@ -12,7 +12,7 @@ MAPPER/
 WWARNset/
 base_de_datos_trabajo/
 *.csv
-*.xlsx
+#*.xlsx
 *.rds
 
 # OS files
